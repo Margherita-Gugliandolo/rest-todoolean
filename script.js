@@ -3,14 +3,6 @@ function addInsertListener(){
   target.click(insertTask);
 }
 
-// function insertTask(){
-//
-//   var target = $('#task_text');
-//   var text = target.val();
-//
-//   console.log('text', text);
-// }
-
 function getTasks(){
 
   $.ajax({
